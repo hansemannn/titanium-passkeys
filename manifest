@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: arm64 x86_64
+mac: false # Not available on macOS so far
+description: titanium-passkeys
+author: Hans Knöchel
+license: MIT
+copyright: Copyright (c) 2022 by TiDev
+
+# these should not be edited
+name: titanium-passkeys
+moduleid: ti.passkeys
+guid: 03eeaec6-0366-402f-bf59-5d9ad4385ffe
+platform: iphone
+minsdk: 10.0.0
